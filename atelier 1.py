@@ -15,3 +15,14 @@ class Parc:
         self.adresse = adresse
         self.capacite = capacite
         self.listeVoitures = []
+
+    def entrerVoiture(self, voiture):
+        for v in self.listeVoitures:
+            if v.matricule == voiture.matricule:
+                print("La voiture existe déjà dans le parc.")
+                return
+            if len(self.listeVoitures) < self.capacite:
+                self.listeVoitures.append(voiture)
+                print("Voiture ajoutée dans le parc.")
+            else:
+                print("Le parc est plein.")
