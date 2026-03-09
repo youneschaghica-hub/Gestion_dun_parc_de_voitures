@@ -8,3 +8,10 @@ class Voiture:
         print(f"Matricule:{self.matricule}")
         print(f"Marque: {self.marque}")
         print(f"Couleur: {self.couleur}")
+
+class Parc:
+    def __init__(self, id, adresse, capacite):
+        self.id = id
+        self.adresse = adresse
+        self.capacite = capacite
+        self.listeVoitures = []
