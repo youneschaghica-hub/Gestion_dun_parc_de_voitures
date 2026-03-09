@@ -44,3 +44,8 @@ v1 = Voiture("H475S", "Honda", "Noir")
 v2 = Voiture("JH56H", "Tesla", "Gris")
 v3 = Voiture("UH35JH", "GMC", "Blanc")
 v4 = Voiture("YTR587", "KIA", "Bleu")
+
+parc1.entrerVoiture(v1)
+parc1.entrerVoiture(v2)
+parc1.entrerVoiture(v3)
+parc1.entrerVoiture(v4)
