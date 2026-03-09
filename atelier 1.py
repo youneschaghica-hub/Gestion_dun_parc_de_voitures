@@ -49,3 +49,8 @@ parc1.entrerVoiture(v1)
 parc1.entrerVoiture(v2)
 parc1.entrerVoiture(v3)
 parc1.entrerVoiture(v4)
+
+v1.afficherInformations()
+v2.afficherInformations()
+
+parc1.sortirVoiture(v2)
